@@ -9,6 +9,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         boolean keepLooping = true;
         while (keepLooping) {
+            System.out.print("Operations (ajouter | vendre | affichage | exit): ");
             String input = sc.nextLine();
 
             switch (input) {
