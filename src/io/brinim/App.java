@@ -31,9 +31,8 @@ public class App {
                     System.out.println("Tache inconnu, veuillez réssayer.");
                     break;
             }
-
-            // Should save program state here
-            System.out.println("A bientot!");
         }
+        // Should save program state here
+        System.out.println("A bientot!");
     }
 }
